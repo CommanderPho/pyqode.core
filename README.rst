@@ -1,3 +1,7 @@
+This is a fork of the original [PyQode](https://github.com/pyQode/pyqode.core)
+deployed to pypi by [haesleinhuepf](https://github.com/haesleinhuepf)
+under the name/version [haesleinhuepf-pyqode.core==2.14.0](https://pypistats.org/packages/haesleinhuepf-pyqode.core).
+
 **Bugfix maintenance only**
 
 .. image:: https://raw.githubusercontent.com/pyQode/pyQode/master/media/pyqode-banner.png
