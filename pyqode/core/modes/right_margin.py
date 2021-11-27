@@ -80,7 +80,7 @@ class RightMarginMode(Mode):
         x80 = round(metrics.width(' ') * pos) + offset
         painter = QtGui.QPainter(self.editor.viewport())
         painter.setPen(self._pen)
-        painter.drawLine(x80, 0, x80, 2 ** 16)
+        painter.drawLine(int(x80), 0, int(x80), 2 ** 16)
 
     def clone_settings(self, original):
         self.color = original.color

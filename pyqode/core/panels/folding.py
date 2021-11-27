@@ -211,7 +211,7 @@ class FoldingPanel(Panel):
     def sizeHint(self):
         """ Returns the widget size hint (based on the editor font size) """
         fm = QtGui.QFontMetricsF(self.editor.font())
-        size_hint = QtCore.QSize(fm.height(), fm.height())
+        size_hint = QtCore.QSize(int(fm.height()), int(fm.height()))
         if size_hint.width() > 16:
             size_hint.setWidth(16)
         return size_hint

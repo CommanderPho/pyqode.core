@@ -35,8 +35,8 @@ class GlobalCheckerPanel(Panel):
                 color = QtGui.QColor(msg.color)
                 brush = QtGui.QBrush(color)
                 rect = QtCore.QRect()
-                rect.setX(self.sizeHint().width() / 4)
-                rect.setY(block.blockNumber() * self.get_marker_height())
+                rect.setX(int(self.sizeHint().width() / 4))
+                rect.setY(int(block.blockNumber() * self.get_marker_height()))
                 rect.setSize(self.get_marker_size())
                 painter.fillRect(rect, brush)
 
@@ -53,9 +53,9 @@ class GlobalCheckerPanel(Panel):
             end = self.editor.visible_blocks[-1][-1]
             rect = QtCore.QRect()
             rect.setX(0)
-            rect.setY(start.blockNumber() * self.get_marker_height())
+            rect.setY(int(start.blockNumber() * self.get_marker_height()))
             rect.setWidth(self.sizeHint().width())
-            rect.setBottom(end.blockNumber() * self.get_marker_height())
+            rect.setBottom(int(end.blockNumber() * self.get_marker_height()))
             if self.editor.background.lightness() < 128:
                 c = self.editor.background.darker(150)
             else:
@@ -97,7 +97,7 @@ class GlobalCheckerPanel(Panel):
         h = self.get_marker_height()
         if h < 1:
             h = 1
-        return QtCore.QSize(self.sizeHint().width() / 2, h)
+        return QtCore.QSize(int(self.sizeHint().width() / 2), int(h))
 
     def mousePressEvent(self, event):
         # Moves the editor text cursor to the clicked line.

@@ -52,7 +52,7 @@ class CheckerPanel(Panel):
         Returns the panel size hint. (fixed with of 16px)
         """
         metrics = QtGui.QFontMetricsF(self.editor.font())
-        size_hint = QtCore.QSize(metrics.height(), metrics.height())
+        size_hint = QtCore.QSize(int(metrics.height()), int(metrics.height()))
         if size_hint.width() > 16:
             size_hint.setWidth(16)
         return size_hint
