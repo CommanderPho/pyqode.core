@@ -71,13 +71,13 @@ setup(
     version=__version__,
     packages=[p for p in find_packages() if 'test' not in p],
     keywords=["CodeEdit PyQt source code editor widget qt"],
-    url='https://github.com/pyQode/pyqode.core',
+    url='https://github.com/haesleinhuepf/pyqode.core',
     license='MIT',
-    author='Colin Duquesnoy',
-    author_email='colin.duquesnoy@gmail.com',
+    author='Robert Haase, Colin Duquesnoy',
+    author_email='robert.haase@tu-dresden.de',
     description=DESCRIPTION,
     long_description=readme(),
-    install_requires=[pygments_req, 'pyqode.qt', 'future'],
+    install_requires=[pygments_req, 'future'],
     tests_require=['pytest-xdist', 'pytest-cov', 'pytest-pep8', 'pytest'],
     entry_points={
         'console_scripts': [
