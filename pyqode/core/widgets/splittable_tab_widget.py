@@ -274,7 +274,7 @@ class BaseTabWidget(QtWidgets.QTabWidget):
         self.tab_detached.emit(tab, new_tab)
 
         # if the user has two monitor, move the window to the second monitor
-        desktop = QtWidgets.qApp.desktop()
+        desktop = QtWidgets.QApplication.instance().desktop()
         if desktop.screenCount() > 1:
             primary_screen = desktop.screenNumber(self)
             other_screen = {0: 1, 1: 0}[primary_screen]
