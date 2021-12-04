@@ -17,7 +17,7 @@ from pyqode.core.api.client import PROCESS_ERROR_STRING
 from pyqode.core.backend import server
 from qtpy import QtWidgets, QtGui, QtCore
 from qtpy.QtGui import QColor
-from qtpy.QtWidgets import qApp
+from qtpy.QtWidgets import QApplication
 
 from . import pty_wrapper
 
