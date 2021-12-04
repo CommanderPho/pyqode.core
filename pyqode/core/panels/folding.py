@@ -357,10 +357,7 @@ class FoldingPanel(Panel):
         rect = QtCore.QRect(0, top, self.sizeHint().width(),
                             self.sizeHint().height())
         if self._native:
-            if os.environ['QT_API'].lower() not in PYQT5_API:
-                opt = QtGui.QStyleOptionViewItemV2()
-            else:
-                opt = QtWidgets.QStyleOptionViewItem()
+            opt = QtWidgets.QStyleOptionViewItem()
             opt.rect = rect
             opt.state = (QtWidgets.QStyle.State_Active |
                          QtWidgets.QStyle.State_Item |
