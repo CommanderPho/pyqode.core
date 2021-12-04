@@ -4,7 +4,7 @@ This module tests the extension frontend module
 (pyqode.core.api.decoration and pyqode.core.managers.TextDecorationManager)
 """
 from pyqode.core.api import TextHelper, TextDecoration
-from pyqode.qt import QtGui
+from qtpy import QtGui
 from ..helpers import editor_open
 
 

@@ -3,7 +3,7 @@ import os
 import pytest
 from pyqode.core import panels
 from pyqode.core.managers import FileManager
-from pyqode.qt.QtTest import QTest
+from qtpy.QtTest import QTest
 
 
 PATH = pth = os.path.join(os.getcwd(), 'test', 'files', 'big5hkscs.txt')

@@ -1,7 +1,7 @@
 """
 This packages contains the various qt designer plugins
 """
-from pyqode.qt import QtDesigner
+from qtpy import QtDesigner
 
 
 class WidgetPlugin(QtDesigner.QPyDesignerCustomWidgetPlugin):

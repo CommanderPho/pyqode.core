@@ -6,7 +6,7 @@ import logging
 import os
 import sys
 from pyqode.core.widgets import FileSystemTreeView, FileSystemContextMenu
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 
 
 logging.basicConfig(level=logging.DEBUG)

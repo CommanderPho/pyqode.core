@@ -1,7 +1,7 @@
 """
 This module contains the extended selection mode.
 """
-from pyqode.qt import QtCore, QtWidgets, QtGui
+from qtpy import QtCore, QtWidgets, QtGui
 from pyqode.core.api import Mode, TextHelper
 
 

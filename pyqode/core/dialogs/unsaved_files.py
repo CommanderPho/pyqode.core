@@ -1,9 +1,9 @@
 """
 This module contains the unsaved files dialog.
 """
-from pyqode.qt.QtWidgets import QDialog
+from qtpy.QtWidgets import QDialog
 from pyqode.core._forms.dlg_unsaved_files_ui import Ui_Dialog
-from pyqode.qt import QtWidgets, QtCore
+from qtpy import QtWidgets, QtCore
 
 
 class DlgUnsavedFiles(QDialog, Ui_Dialog):

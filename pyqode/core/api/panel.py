@@ -3,7 +3,7 @@ This module contains the panel API.
 """
 import logging
 from pyqode.core.api.mode import Mode
-from pyqode.qt import QtWidgets, QtGui
+from qtpy import QtWidgets, QtGui
 
 
 def _logger():

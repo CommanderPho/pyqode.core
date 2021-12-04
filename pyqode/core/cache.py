@@ -20,7 +20,7 @@ better handled at the application level.
 import json
 import locale
 import logging
-from pyqode.qt import QtCore
+from qtpy import QtCore
 
 try:
     from future.builtins import open

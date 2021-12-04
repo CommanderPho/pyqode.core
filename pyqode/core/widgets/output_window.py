@@ -15,9 +15,9 @@ from collections import namedtuple
 from pyqode.core.api import CodeEdit, SyntaxHighlighter, TextHelper
 from pyqode.core.api.client import PROCESS_ERROR_STRING
 from pyqode.core.backend import server
-from pyqode.qt import QtWidgets, QtGui, QtCore
-from pyqode.qt.QtGui import QColor
-from pyqode.qt.QtWidgets import qApp
+from qtpy import QtWidgets, QtGui, QtCore
+from qtpy.QtGui import QColor
+from qtpy.QtWidgets import qApp
 
 from . import pty_wrapper
 

@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 import sys
 
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 from pyqode.core.api import CodeEdit
 from pyqode.core.panels import CheckerPanel
 from pyqode.core.modes import CheckerMode, CheckerMessages

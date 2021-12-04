@@ -5,7 +5,7 @@ This module contains the search and replace panel
 import re
 import sre_constants
 
-from pyqode.qt import QtCore, QtGui, QtWidgets
+from qtpy import QtCore, QtGui, QtWidgets
 from pyqode.core import icons
 from pyqode.core._forms.search_panel_ui import Ui_SearchPanel
 from pyqode.core.api.decoration import TextDecoration

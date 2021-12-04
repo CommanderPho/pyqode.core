@@ -1,7 +1,7 @@
 """
 This module contains the occurrences highlighter mode.
 """
-from pyqode.qt import QtGui
+from qtpy import QtGui
 from pyqode.core.api import Mode, DelayJobRunner, TextHelper, TextDecoration
 from pyqode.core.backend import NotRunning
 from pyqode.core.backend.workers import findall

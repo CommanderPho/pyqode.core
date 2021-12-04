@@ -1,7 +1,7 @@
 """
 This example show you how to use the Terminal widget
 """
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 
 from pyqode.core.widgets import Terminal
 

@@ -9,7 +9,7 @@ import io
 import uuid
 import weakref
 
-from pyqode.qt import QtCore, QtWidgets, QtGui
+from qtpy import QtCore, QtWidgets, QtGui
 from pyqode.core.api import utils
 from pyqode.core.dialogs import DlgUnsavedFiles
 from pyqode.core._forms import popup_open_files_ui

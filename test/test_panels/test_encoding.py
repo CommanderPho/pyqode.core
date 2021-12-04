@@ -1,5 +1,5 @@
 import os
-from pyqode.qt.QtTest import QTest
+from qtpy.QtTest import QTest
 from pyqode.core import panels
 
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """ Contains the AutoCompleteMode """
 import logging
-from pyqode.qt import QtCore, QtGui
+from qtpy import QtCore, QtGui
 from pyqode.core.api import TextHelper
 from pyqode.core.api.mode import Mode
 
@@ -59,7 +59,7 @@ class AutoCompleteMode(Mode):
     def _on_key_pressed(self, event):
         txt = event.text()
         cursor = self.editor.textCursor()
-        from pyqode.qt import QtGui
+        from qtpy import QtGui
         assert isinstance(cursor, QtGui.QTextCursor)
         if cursor.hasSelection():
             # quoting of selected text

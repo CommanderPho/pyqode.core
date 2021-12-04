@@ -7,7 +7,7 @@ import weakref
 from pyqode.core import icons
 from pyqode.core.panels import FoldingPanel
 from pyqode.core.modes.outline import OutlineMode
-from pyqode.qt import QtCore, QtGui, QtWidgets
+from qtpy import QtCore, QtGui, QtWidgets
 from pyqode.core.api import TextBlockHelper, TextBlockUserData, TextHelper
 
 

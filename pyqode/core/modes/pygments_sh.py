@@ -19,8 +19,8 @@ from pygments.lexers.special import TextLexer
 from pygments.styles import get_style_by_name, get_all_styles
 from pygments.token import Whitespace, Comment, Token
 from pygments.util import ClassNotFound
-from pyqode.qt import QtGui
-from pyqode.qt.QtCore import QRegExp
+from qtpy import QtGui
+from qtpy.QtCore import QRegExp
 
 from pyqode.core.api.syntax_highlighter import (
     SyntaxHighlighter, ColorScheme, TextBlockUserData)

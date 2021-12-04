@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 import sys
 
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core.api import CodeEdit
 from pyqode.core.backend import server
 from pyqode.core.modes import FileWatcherMode

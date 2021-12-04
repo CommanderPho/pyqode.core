@@ -4,7 +4,7 @@ This module contains the encodings related widgets (combox, menus,...)
 import locale
 import logging
 from pyqode.core.api import ENCODINGS_MAP, convert_to_codec_key
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core.cache import Cache
 
 

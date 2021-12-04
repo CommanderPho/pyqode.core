@@ -8,8 +8,8 @@ import weakref
 import mimetypes
 import os
 
-from pyqode.qt import QtCore
-from pyqode.qt import QtWidgets
+from qtpy import QtCore
+from qtpy import QtWidgets
 
 from pyqode.core import api
 from pyqode.core import modes

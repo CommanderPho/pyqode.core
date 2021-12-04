@@ -4,7 +4,7 @@ This module contains the backend controller
 import logging
 import socket
 import sys
-from pyqode.qt import QtCore
+from qtpy import QtCore
 
 from pyqode.core.api.client import JsonTcpClient, BackendProcess
 from pyqode.core.api.manager import Manager

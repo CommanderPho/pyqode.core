@@ -5,7 +5,7 @@ Contains the default indenter.
 import logging
 from pyqode.core.api import TextHelper
 from pyqode.core.api.mode import Mode
-from pyqode.qt import QtGui
+from qtpy import QtGui
 
 
 def _logger():

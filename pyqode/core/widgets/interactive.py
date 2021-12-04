@@ -10,9 +10,9 @@ import sys
 from pyqode.core.api.client import PROCESS_ERROR_STRING
 from pyqode.core.managers.decorations import TextDecorationsManager
 from pyqode.core.managers.panels import PanelsManager
-from pyqode.qt.QtCore import Qt, Signal, QProcess, QProcessEnvironment
-from pyqode.qt.QtWidgets import QTextEdit, QAction, QApplication
-from pyqode.qt.QtGui import QColor, QTextCursor, QFont, QKeySequence
+from qtpy.QtCore import Qt, Signal, QProcess, QProcessEnvironment
+from qtpy.QtWidgets import QTextEdit, QAction, QApplication
+from qtpy.QtGui import QColor, QTextCursor, QFont, QKeySequence
 
 
 def _logger():
@@ -466,7 +466,7 @@ class InteractiveConsole(QTextEdit):
 
 
 if __name__ == '__main__':
-    from pyqode.qt import QtWidgets
+    from qtpy import QtWidgets
     app = QtWidgets.QApplication([])
     console = InteractiveConsole()
     console.start_process('cal')

@@ -3,7 +3,7 @@ This module contains a widget that can show the html preview of an
 editor.
 """
 from weakref import proxy
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core.api import DelayJobRunner
 
 

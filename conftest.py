@@ -23,7 +23,7 @@ def pytest_runtest_setup(item):
     Display test method name in active window title bar
     ;param item: test item to run
     """
-    from pyqode.qt.QtWidgets import QApplication
+    from qtpy.QtWidgets import QApplication
     global EDITOR, APP
     if APP is None:
         APP = QApplication(sys.argv)

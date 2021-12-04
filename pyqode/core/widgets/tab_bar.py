@@ -1,7 +1,7 @@
 """
 This module contains the tab bar used in the splittable tab widget.
 """
-from pyqode.qt import QtWidgets, QtCore
+from qtpy import QtWidgets, QtCore
 from pyqode.core.api import DelayJobRunner
 
 

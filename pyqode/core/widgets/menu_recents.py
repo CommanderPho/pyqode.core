@@ -6,7 +6,7 @@ which use your application's QSettings to store the list of recent files.
 import sys
 import os
 from pyqode.core import icons
-from pyqode.qt import QtCore, QtGui, QtWidgets
+from qtpy import QtCore, QtGui, QtWidgets
 
 
 class RecentFilesManager(QtCore.QObject):

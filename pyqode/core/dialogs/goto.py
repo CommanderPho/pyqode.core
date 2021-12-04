@@ -2,7 +2,7 @@
 This module contains the go to line dialog.
 """
 from pyqode.core._forms import dlg_goto_line_ui
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 
 
 class DlgGotoLine(QtWidgets.QDialog, dlg_goto_line_ui.Ui_Dialog):

@@ -10,7 +10,7 @@ from pygments.token import Token, Punctuation
 from pygments.util import ClassNotFound
 from pyqode.core.api.mode import Mode
 from pyqode.core.api.utils import drift_color
-from pyqode.qt import QtGui, QtCore, QtWidgets
+from qtpy import QtGui, QtCore, QtWidgets
 
 
 def _logger():

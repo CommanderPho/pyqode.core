@@ -6,7 +6,7 @@ you application.
 import locale
 from pyqode.core import icons
 from pyqode.core.api import encodings
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core.cache import Cache
 from pyqode.core._forms import dlg_preferred_encodings_editor_ui
 

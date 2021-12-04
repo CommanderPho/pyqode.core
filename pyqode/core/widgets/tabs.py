@@ -9,8 +9,8 @@ import os
 from pyqode.core.dialogs.unsaved_files import DlgUnsavedFiles
 from pyqode.core.modes.filewatcher import FileWatcherMode
 from pyqode.core.widgets.tab_bar import TabBar
-from pyqode.qt import QtCore, QtWidgets
-from pyqode.qt.QtWidgets import QTabBar, QTabWidget
+from qtpy import QtCore, QtWidgets
+from qtpy.QtWidgets import QTabBar, QTabWidget
 
 
 def _logger():

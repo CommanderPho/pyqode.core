@@ -12,7 +12,7 @@ import struct
 import sys
 import uuid
 from weakref import ref
-from pyqode.qt import QtCore, QtNetwork
+from qtpy import QtCore, QtNetwork
 
 
 def _logger():

@@ -8,7 +8,7 @@ import sys
 import time
 from pyqode.core.api.mode import Mode
 from pyqode.core.backend import NotRunning
-from pyqode.qt import QtWidgets, QtCore, QtGui
+from qtpy import QtWidgets, QtCore, QtGui
 from pyqode.core.api.utils import TextHelper
 from pyqode.core import backend
 

@@ -2,7 +2,7 @@
 """
 This module contains the care line highlighter mode
 """
-from pyqode.qt import QtGui
+from qtpy import QtGui
 
 from pyqode.core.api.decoration import TextDecoration
 from pyqode.core.api.mode import Mode

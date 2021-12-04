@@ -3,7 +3,7 @@ from pyqode.core.api import Mode
 from pyqode.core.api import DelayJobRunner
 from pyqode.core.backend import NotRunning
 from pyqode.core.share import Definition
-from pyqode.qt import QtCore
+from qtpy import QtCore
 
 
 def _logger():

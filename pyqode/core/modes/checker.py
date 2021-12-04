@@ -8,7 +8,7 @@ from pyqode.core.api.decoration import TextDecoration
 from pyqode.core.api.mode import Mode
 from pyqode.core.backend import NotRunning
 from pyqode.core.api.utils import DelayJobRunner
-from pyqode.qt import QtCore, QtGui
+from qtpy import QtCore, QtGui
 
 
 class CheckerMessages(object):

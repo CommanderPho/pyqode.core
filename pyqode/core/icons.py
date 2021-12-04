@@ -8,7 +8,7 @@ could use:
 qtawesome is an optional dependency, it is disabled by default.
 If your application use qtawesome, just set ``USE_QTAWESOME`` to True.
 """
-from pyqode.qt import QtGui
+from qtpy import QtGui
 try:
     import qtawesome as qta
 except ImportError:

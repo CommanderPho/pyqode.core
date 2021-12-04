@@ -1,5 +1,5 @@
 import random
-from pyqode.qt.QtTest import QTest
+from qtpy.QtTest import QTest
 import sys
 import pytest
 from pyqode.core import modes, panels

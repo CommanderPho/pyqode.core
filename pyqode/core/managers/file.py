@@ -13,7 +13,7 @@ import mimetypes
 import os
 from pyqode.core.api.manager import Manager
 from pyqode.core.api.utils import TextHelper
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core.cache import Cache
 
 

@@ -1,5 +1,5 @@
 import weakref
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core import api
 
 

@@ -16,7 +16,7 @@ example_tuple = (
 from test.helpers import editor_open
 from pyqode.core.api import TextHelper
 from pyqode.core import modes
-from pyqode.qt import QtGui
+from qtpy import QtGui
 
 
 

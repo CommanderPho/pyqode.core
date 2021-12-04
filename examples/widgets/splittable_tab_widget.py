@@ -1,6 +1,6 @@
 import os
 import sys
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 from pyqode.core.widgets import GenericCodeEdit, InteractiveConsole
 from pyqode.core.backend import server
 from pyqode.core.widgets import SplittableTabWidget

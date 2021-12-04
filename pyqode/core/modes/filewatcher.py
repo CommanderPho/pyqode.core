@@ -5,7 +5,7 @@ Contains the mode that control the external changes of file.
 import os
 from pyqode.core.api import TextHelper
 from pyqode.core.api.mode import Mode
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core.cache import Cache
 
 

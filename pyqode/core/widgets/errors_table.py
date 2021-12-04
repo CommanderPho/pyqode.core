@@ -4,7 +4,7 @@ Contains a custom QTableWidget for easier displaying of CheckerMessages
 """
 from pyqode.core.api.utils import memoized
 from pyqode.core.modes import CheckerMessage, CheckerMessages
-from pyqode.qt import QtCore, QtWidgets, QtGui
+from qtpy import QtCore, QtWidgets, QtGui
 
 
 COL_TYPE = 0

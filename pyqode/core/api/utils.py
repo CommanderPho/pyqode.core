@@ -6,7 +6,7 @@ import functools
 import logging
 import weakref
 
-from pyqode.qt import QtCore, QtGui, QtWidgets
+from qtpy import QtCore, QtGui, QtWidgets
 
 
 def _logger():
