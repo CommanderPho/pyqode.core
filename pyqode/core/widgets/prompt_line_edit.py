@@ -6,7 +6,6 @@ import os
 from pyqode.core import icons
 from qtpy import QtWidgets, QtCore, QtGui
 from qtpy import PYQT5_API
-from qtpy import PYQT4_API
 from qtpy import PYSIDE_API
 
 
@@ -59,10 +58,7 @@ class PromptLineEdit(QtWidgets.QLineEdit):
 
         qt_api = os.environ['QT_API'].lower()
         if self._prompt_text and not self.text() and self.isEnabled():
-            if qt_api in PYQT4_API:
-                from PyQt4.QtGui import QStyleOptionFrameV3
-                option = QStyleOptionFrameV3()
-            elif qt_api in PYSIDE_API:
+            if qt_api in PYSIDE_API:
                 from PySide.QtGui import QStyleOptionFrameV3
                 option = QStyleOptionFrameV3()
             elif qt_api in PYQT5_API:
