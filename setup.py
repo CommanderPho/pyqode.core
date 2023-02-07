@@ -71,7 +71,7 @@ setup(
     version=__version__,
     packages=[p for p in find_packages() if 'test' not in p],
     keywords=["CodeEdit PyQt source code editor widget qt"],
-    url='https://github.com/haesleinhuepf/pyqode.core',
+    url='https://github.com/CommanderPho/pyqode.core',
     license='MIT',
     author='Robert Haase, Colin Duquesnoy',
     author_email='robert.haase@tu-dresden.de',
