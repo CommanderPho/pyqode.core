@@ -66,7 +66,7 @@ def readme():
 
 
 setup(
-    name='pyqode.core',
+    name='pho-pyqode.core',
     namespace_packages=['pyqode'],
     version=__version__,
     packages=[p for p in find_packages() if 'test' not in p],
