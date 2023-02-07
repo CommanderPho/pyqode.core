@@ -1,6 +1,6 @@
 [tool]
 [tool.poetry]
-name = "pho-pyqode-core"
+name = "pyqode-core"
 version = "3.0.0"
 description = "PyQt/PySide Source Code Editor Widget"
 license = "MIT"
