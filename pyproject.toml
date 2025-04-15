@@ -1,6 +1,21 @@
 [project]
-name = ""
-version = "0.0.1"
+name = "pyqode-core"
+version = "3.0.1"
+dependencies = [
+    "setuptools>=78.1.0",
+    "wheel>=0.45.1",
+]
+dynamic = [
+    "description",
+    "readme",
+    "requires-python",
+    "license",
+    "authors",
+    "keywords",
+    "classifiers",
+    "urls"
+]
+
 
 [dependency-groups]
 dev = [

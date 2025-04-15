@@ -21,7 +21,7 @@ if os.path.exists(readme_path):
 setup(
     long_description=readme,
     name='pyqode-core',
-    version='3.0.0',
+    version='3.0.1',
     description='PyQt/PySide Source Code Editor Widget',
     python_requires='>=3.9',
     project_urls={"homepage": "https://github.com/CommanderPho/pyqode.core"},
