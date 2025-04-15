@@ -1,0 +1,15 @@
+[project]
+name = ""
+version = "0.0.1"
+
+[dependency-groups]
+dev = [
+    "pyqt5",
+    "pytest",
+    "pytest-xdist",
+    "pytest-cov",
+    "coveralls",
+]
+
+[tool.uv]
+package = false
