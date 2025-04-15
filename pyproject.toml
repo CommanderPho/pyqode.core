@@ -1,6 +1,6 @@
 [project]
 name = "pyqode-core"
-version = "3.0.1"
+version = "4.0.0"
 dependencies = [
     "setuptools>=78.1.0",
     "wheel>=0.45.1",
@@ -27,4 +27,4 @@ dev = [
 ]
 
 [tool.uv]
-package = false
+package = true

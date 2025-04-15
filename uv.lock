@@ -245,8 +245,8 @@ wheels = [
 
 [[package]]
 name = "pyqode-core"
-version = "0.0.1"
-source = { virtual = "." }
+version = "4.0.0"
+source = { editable = "." }
 dependencies = [
     { name = "setuptools" },
     { name = "wheel" },
